@@ -8,7 +8,7 @@
 using namespace std;
 
 class Tree {
-protected:
+private:
     struct Node {
         string text;
         Node* right;
@@ -52,4 +52,6 @@ public:
     }
 
     double timeTree(char letter);
+
+    friend class raylibForProject;
 };
