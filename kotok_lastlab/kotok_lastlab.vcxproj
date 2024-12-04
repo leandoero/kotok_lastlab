@@ -128,12 +128,20 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="kotok_lastlab.cpp" />
+    <ClCompile Include="logicForClass.cpp" />
+    <ClCompile Include="logicForOther.cpp" />
+    <ClCompile Include="raylibLib.cpp" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="words.txt" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="logicForClass.h" />
+    <ClInclude Include="logicForOther.h" />
+    <ClInclude Include="raylibLib.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
